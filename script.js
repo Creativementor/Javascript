@@ -21,11 +21,43 @@
 
 // Solution
 
-// var percentage = ((45/50)*100) + "%"
+// var percentage = ((45/50) *100) + "%"
 
 // alert(percentage)
 
-var totalmarks = 50
-var obtainmarks = 45
+// var totalmarks = 50
+// var obtainmarks = 45
 
-alert((obtainmarks /totalmarks) *100 + "%")
+// alert((obtainmarks /totalmarks) *100 + "%")
+
+
+// var balance = 2;
+
+// var balance = balance + 10;
+
+// console.log(balance)
+
+// console.log(3 + 4 * 5);
+
+// % is the Modulus operator
+
+// console.log(9 % 5)
+
+// Score(++) Incriment operator
+// Score(--) decrement operator
+
+
+var score = 7;
+
+score--;
+score++;
+score--;
+
+// console.log('score', score--); //posted
+// console.log('score', --score) //pre
+// console.log('score', score)
+
+var userName = prompt("Enter Your Name");
+
+alert(userName)
+console.log(userName)
