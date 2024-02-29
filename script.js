@@ -47,6 +47,8 @@
 // Score(--) decrement operator
 
 
+
+
 // var score = 7;
 
 // score--;
@@ -86,6 +88,7 @@
 // console.log(modulas)
 // console.log(bodmas)
 
+// variaable temperory Storage hai
 // String pe airthmetic operator ko apply krna
 
 // Srting mein agr hum number plus (+) krnge to wo concatenate hojaega or agr plus ke 
@@ -96,3 +99,158 @@
 
 // console.log(number1 + number2)
 
+//var nationality;   //Intialize
+//nationality = 'U.S.';
+//nationality - 234 ;
+
+//console.log(nationality,'nationality')
+
+//var userName = prompt('Enter Your Name')
+
+//console.log(userName,'Enter Your Name')
+
+// Zero Or NaN me kia difference hai
+
+// Undifined javasrcipt me Undifined hi show hota hai
+
+// Null ko btana parta hai tbhi wo show hota hai
+
+
+// var result = 4 + '5 concatinate'
+// but minus me Number consider karega 
+
+
+//Unfamilier Operators
+
+//++ , --
+
+// var number = 20;
+
+//Post increment/dercrement
+//number++
+//number--
+
+
+//Pre increment/decrement
+// ++number
+// --number
+
+// console.log(number)
+
+
+//jiske age ++/-- lagega wohi varialbe update hoga 
+//Post me pehle value assign hogi phr update hogi.
+//Pre me pehle variable update hoga phr value assign hogi.
+
+// post Increment
+// var pNum = 10;
+// var pNewNum = pNum++
+
+// console.log(pNum)
+// console.log(pNewNum)
+
+// Pre decrement
+
+// var pdNum = 10
+// var pdNewNum = --pdNum
+
+// console.log(pdNum)
+// console.log(pdNewNum)
+
+
+// Pre increment
+// var pdNum = 10
+// var pdNewNum = ++pdNum
+
+// console.log(pdNum)
+// console.log(pdNewNum)
+
+// var abc = 10
+
+// console.log(abc++)
+// console.log(abc++)
+// console.log(abc++)
+// console.log(abc++)
+// console.log(abc++)
+
+
+// gap dene ke lye 
+// alert("Hamza Qadri \n web developer")
+
+// var firstName = 'Hamza'
+// var lastName = 'Qadri'
+
+// var fullName = firstName + ' ' + lastName
+
+// document.write('<h1>' + fullName + '</h1>')
+
+// var fName = `${firstName}  ${lastName}`
+
+// console.log(fName)
+
+var tableNumber = 5;
+// var multiplyNumber = 1;
+// var newNumber = 1**
+
+// document.write("<h1>Do ka Pahara</h1>");
+// document.write(`<h1>${tableNumber} x 1 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 2 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 3 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 4 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 5 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 6 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 7 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 8 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 9 =  ${tableNumber * newNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x 10 = ${tableNumber * newNumber}</h1>`);
+
+
+
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber}</h1>`);
+
+
+document.write(`<h1>Table Of  2</h1>`)
+document.write(`<h1>${tableNumber} x 1 = ${tableNumber * 1}</h1>`);
+document.write(`<h1>${tableNumber} x 2 = ${tableNumber * 2}</h1>`);
+document.write(`<h1>${tableNumber} x 3 = ${tableNumber * 3}</h1>`);
+document.write(`<h1>${tableNumber} x 4 = ${tableNumber * 4}</h1>`);
+document.write(`<h1>${tableNumber} x 5 = ${tableNumber * 5}</h1>`);
+document.write(`<h1>${tableNumber} x 6 = ${tableNumber * 6}</h1>`);
+document.write(`<h1>${tableNumber} x 7 = ${tableNumber * 7}</h1>`);
+document.write(`<h1>${tableNumber} x 8 = ${tableNumber * 8}</h1>`);
+document.write(`<h1>${tableNumber} x 9 = ${tableNumber * 9}</h1>`);
+document.write(`<h1>${tableNumber} x 10 = ${tableNumber * 10}</h1>`);
+
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber 1**} </h1>`)
+
+
+
+
+
+var numberOfTable = 3;
+
+document.write(`<h1>Table Of 3</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 1}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 2}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 3}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 4}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 5}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 6}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 7}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 8}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 9}</h1>`)
+document.write(`<h1>${numberOfTable} x 1 = ${numberOfTable * 10}</h1>`)
