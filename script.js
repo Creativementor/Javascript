@@ -221,138 +221,198 @@
 
 
 
-var tableNumber = 5;
+// var tableNumber = 5;
 
-document.write(`<h1>Table Of  5 First Logic</h1>`)
-document.write(`<h1>${tableNumber} x 1 = ${tableNumber * 1}</h1>`);
-document.write(`<h1>${tableNumber} x 2 = ${tableNumber * 2}</h1>`);
-document.write(`<h1>${tableNumber} x 3 = ${tableNumber * 3}</h1>`);
-document.write(`<h1>${tableNumber} x 4 = ${tableNumber * 4}</h1>`);
-document.write(`<h1>${tableNumber} x 5 = ${tableNumber * 5}</h1>`);
-document.write(`<h1>${tableNumber} x 6 = ${tableNumber * 6}</h1>`);
-document.write(`<h1>${tableNumber} x 7 = ${tableNumber * 7}</h1>`);
-document.write(`<h1>${tableNumber} x 8 = ${tableNumber * 8}</h1>`);
-document.write(`<h1>${tableNumber} x 9 = ${tableNumber * 9}</h1>`);
-document.write(`<h1>${tableNumber} x 10 = ${tableNumber * 10}</h1>`);
-
-
-var tableNumber = 5;
-var multiplyNumber = 1;
-
-document.write(`<h1>Table Of 5 Second logic</h1>`)
-
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
-document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>Table Of  5 First Logic</h1>`)
+// document.write(`<h1>${tableNumber} x 1 = ${tableNumber * 1}</h1>`);
+// document.write(`<h1>${tableNumber} x 2 = ${tableNumber * 2}</h1>`);
+// document.write(`<h1>${tableNumber} x 3 = ${tableNumber * 3}</h1>`);
+// document.write(`<h1>${tableNumber} x 4 = ${tableNumber * 4}</h1>`);
+// document.write(`<h1>${tableNumber} x 5 = ${tableNumber * 5}</h1>`);
+// document.write(`<h1>${tableNumber} x 6 = ${tableNumber * 6}</h1>`);
+// document.write(`<h1>${tableNumber} x 7 = ${tableNumber * 7}</h1>`);
+// document.write(`<h1>${tableNumber} x 8 = ${tableNumber * 8}</h1>`);
+// document.write(`<h1>${tableNumber} x 9 = ${tableNumber * 9}</h1>`);
+// document.write(`<h1>${tableNumber} x 10 = ${tableNumber * 10}</h1>`);
 
 
+// var tableNumber = 5;
+// var multiplyNumber = 1;
 
-var numberTable = 5;
-var multiplyNumber = 1;
+// document.write(`<h1>Table Of 5 Second logic</h1>`)
 
-document.write(`<h1>Table Of 5 third logic</h1>`)
-
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
+// document.write(`<h1>${tableNumber} x ${multiplyNumber} = ${tableNumber * multiplyNumber++}</h1>`);
 
 
 
+// var numberTable = 5;
+// var multiplyNumber = 1;
 
-var numberTable = 3;
+// document.write(`<h1>Table Of 5 third logic</h1>`)
 
-document.write(`<h1>Table Of 3 First logic</h1>`)
-
-document.write(`<h1>${numberTable} x 1 = ${numberTable * 1}</h1>`)
-document.write(`<h1>${numberTable} x 2 = ${numberTable * 2}</h1>`)
-document.write(`<h1>${numberTable} x 3 = ${numberTable * 3}</h1>`)
-document.write(`<h1>${numberTable} x 4 = ${numberTable * 4}</h1>`)
-document.write(`<h1>${numberTable} x 5 = ${numberTable * 5}</h1>`)
-document.write(`<h1>${numberTable} x 6 = ${numberTable * 6}</h1>`)
-document.write(`<h1>${numberTable} x 7 = ${numberTable * 7}</h1>`)
-document.write(`<h1>${numberTable} x 8 = ${numberTable * 8}</h1>`)
-document.write(`<h1>${numberTable} x 9 = ${numberTable * 9}</h1>`)
-document.write(`<h1>${numberTable} x 10 = ${numberTable * 10}</h1>`)
-
-
-var numberTable = 3;
-var multiplyNumber = 1;
-
-document.write(`<h1>Table Of 3 Second logic</h1>`)
-
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
 
 
 
-var numberTable = 3;
-var multiplyNumber = 1;
 
-document.write(`<h1>Table Of 3 Third logic</h1>`)
+// var numberTable = 3;
 
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
-document.write(`<h1>${numberTable} x ${multiplyNumber++} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>Table Of 3 First logic</h1>`)
 
-var numberTable = 3;
-var multiplyNumber = 1;
+// document.write(`<h1>${numberTable} x 1 = ${numberTable * 1}</h1>`)
+// document.write(`<h1>${numberTable} x 2 = ${numberTable * 2}</h1>`)
+// document.write(`<h1>${numberTable} x 3 = ${numberTable * 3}</h1>`)
+// document.write(`<h1>${numberTable} x 4 = ${numberTable * 4}</h1>`)
+// document.write(`<h1>${numberTable} x 5 = ${numberTable * 5}</h1>`)
+// document.write(`<h1>${numberTable} x 6 = ${numberTable * 6}</h1>`)
+// document.write(`<h1>${numberTable} x 7 = ${numberTable * 7}</h1>`)
+// document.write(`<h1>${numberTable} x 8 = ${numberTable * 8}</h1>`)
+// document.write(`<h1>${numberTable} x 9 = ${numberTable * 9}</h1>`)
+// document.write(`<h1>${numberTable} x 10 = ${numberTable * 10}</h1>`)
 
-document.write(`<h1>Table Of 3 third logic</h1>`)
 
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
-multiplyNumber++;
-document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// var numberTable = 3;
+// var multiplyNumber = 1;
+
+// document.write(`<h1>Table Of 3 Second logic</h1>`)
+
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber++}</h1>`);
+
+
+
+// var numberTable = 3;
+// var multiplyNumber = 1;
+
+// document.write(`<h1>Table Of 3 Third logic</h1>`)
+
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// document.write(`<h1>${numberTable} x ${++multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+
+// var numberTable = 3;
+// var multiplyNumber = 1;
+
+// document.write(`<h1>Table Of 3 third logic</h1>`)
+
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+// multiplyNumber++;
+// document.write(`<h1>${numberTable} x ${multiplyNumber} = ${numberTable * multiplyNumber}</h1>`);
+
+
+
+// alert javascript ka function pop-up show krwata hai
+
+// prompt javascript ka dyaa hua ek function hai input or pop-up bh show krwata hai
+
+// var firstName = prompt('Enter First Your Name')
+// var lastName = prompt('Enter Last Your Name')
+
+
+// console.log(firstName)
+// console.log(lastName)
+
+// const tableNumber = prompt('Table you want')
+
+// document.write(`<h1>Table You Want</h1>`)
+
+// document.write(<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>)
+// document.write(<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>)
+// document.write(<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>)
+// document.write(<li> ${tableNumber} x 4 = ${tableNumber * 4} </li>)
+// document.write(<li> ${tableNumber} x 5 = ${tableNumber * 5} </li>)
+// document.write(<li> ${tableNumber} x 6 = ${tableNumber * 6} </li>)
+// document.write(<li> ${tableNumber} x 7 = ${tableNumber * 7} </li>)
+// document.write(<li> ${tableNumber} x 8 = ${tableNumber * 8} </li>)
+// document.write(<li> ${tableNumber} x 9 = ${tableNumber * 9} </li>)
+// document.write(<li> ${tableNumber} x 10 = ${tableNumber * 10} </li>)
+
+
+
+//round brackets ke andar condition lagegi
+//curly bracket me agr condition true hui tou humen kaam krwana hoga wo curly brackets me karenge
+
+// comprasion operatos
+
+// == dono cheezein equal hain ya nh
+// === dono cheezein equal hain ya nh plus ki data type 
+// > greater then
+// >= greater then or equals to 
+// < less then
+// =< less then or equals to
+
+
+// if(10 == '100'){
+//     console.log('condition true')
+// } else {
+//     console.log{'condition false'}
+// }
+
+
+var num = prompt('Give number and check if is even odd')
+
+
+if (num % 2 == 0){
+    document.write(`<h1>num is even</h1>`)
+} else {
+    document.write(`<h1>num is odd</h1>`)
+}
