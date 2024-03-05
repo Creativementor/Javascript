@@ -408,11 +408,62 @@
 // }
 
 
-var num = prompt('Give number and check if is even odd')
+// var num = prompt('Give number and check if is even odd')
 
 
-if (num % 2 == 0){
-    document.write(`<h1>num is even</h1>`)
-} else {
-    document.write(`<h1>num is odd</h1>`)
-}
+// if (num % 2 == 0){
+//     document.write(`<h1>num is even</h1>`)
+// } else {
+//     document.write(`<h1>num is odd</h1>`)
+// }
+
+// var city = prompt("Enter Your City")
+
+// if (city === "karachi") {
+//     console.log(city);
+// } else if (city === "islamabad") {
+//     console.log(city);
+// } else {
+//     console.log(invalid);
+// }
+
+// prompt se + lagane se variable type string se number me convert hojati hai
+
+// var num1 = +prompt("number 1");
+// var num2 = +prompt("number 2");
+
+// console.log(typeof num1)
+// console.log(num1 + num2)
+
+// if (num1 > num2){
+//     console.log(num1);
+// } else {
+//      console.log(num2)
+// }
+
+//var side1 = prompt()
+
+
+
+// var userName = prompt('Enter Username')
+// var password = prompt('Enter password')
+// var email = prompt('Enter email')
+
+// if (userName && password && email){
+//     console.log(userName,password,email)
+// } else {
+//     console.log('invalid');
+// }
+
+// var side1 = prompt('side 1'); 
+// var side2 = prompt('side 2');
+// var side3 = prompt('side 3');
+
+// if (side1 === side2 || side2 === side3 || side1 === side3){
+
+//     console.log('isoceles triangle');   
+
+// } else if (side1 == side2 && side1 === side3){
+
+//     console.log('trianlge')
+// }
