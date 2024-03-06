@@ -375,16 +375,16 @@
 
 // document.write(`<h1>Table You Want</h1>`)
 
-// document.write(<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>)
-// document.write(<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>)
-// document.write(<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>)
-// document.write(<li> ${tableNumber} x 4 = ${tableNumber * 4} </li>)
-// document.write(<li> ${tableNumber} x 5 = ${tableNumber * 5} </li>)
-// document.write(<li> ${tableNumber} x 6 = ${tableNumber * 6} </li>)
-// document.write(<li> ${tableNumber} x 7 = ${tableNumber * 7} </li>)
-// document.write(<li> ${tableNumber} x 8 = ${tableNumber * 8} </li>)
-// document.write(<li> ${tableNumber} x 9 = ${tableNumber * 9} </li>)
-// document.write(<li> ${tableNumber} x 10 = ${tableNumber * 10} </li>)
+// document.write(`<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>`)
+// document.write(`<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>`)
+// document.write(`<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>`)
+// document.write(`<li> ${tableNumber} x 4 = ${tableNumber * 4} </li>`)
+// document.write(`<li> ${tableNumber} x 5 = ${tableNumber * 5} </li>`)
+// document.write(`<li> ${tableNumber} x 6 = ${tableNumber * 6} </li>`)
+// document.write(`<li> ${tableNumber} x 7 = ${tableNumber * 7} </li>`)
+// document.write(`<li> ${tableNumber} x 8 = ${tableNumber * 8} </li>`)
+// document.write(`<li> ${tableNumber} x 9 = ${tableNumber * 9} </li>`)
+// document.write(`<li> ${tableNumber} x 10 = ${tableNumber * 10} </li>`)
 
 
 
@@ -466,4 +466,19 @@
 // } else if (side1 == side2 && side1 === side3){
 
 //     console.log('trianlge')
+// }
+
+// spacing condition is here
+
+// var userName = prompt("enter your number")
+
+// alert("Welcome to " + userName + " website" )
+
+// var age = prompt('enter your age')
+
+// if (age < 18) {
+//    console.log('You are underage')
+// } else {
+//     console.log('You are adult')
+
 // }
