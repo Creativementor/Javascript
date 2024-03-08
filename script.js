@@ -371,11 +371,15 @@
 // console.log(firstName)
 // console.log(lastName)
 
-// const tableNumber = prompt('Table you want')
+const tableNumber = +prompt('Table you want')
 
-// document.write(`<h1>Table You Want</h1>`)
+document.write(`<h1>Table You Want</h1>`)
 
-// document.write(`<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>`)
+
+for (let i = 1; i < 11; i++){
+    console.log("ye codde chal raha hy ");
+    document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
+}
 // document.write(`<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>`)
 // document.write(`<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>`)
 // document.write(`<li> ${tableNumber} x 4 = ${tableNumber * 4} </li>`)
@@ -482,3 +486,28 @@
 //     console.log('You are adult')
 
 // }
+
+// Truthy 
+//  All values are truthy if the number not there these are value will be truthy
+//Fasly value are 7
+//if the number will be not there these are falsy value
+
+// var percentage = 75;
+// var validity = 100;
+//80 100 = A+
+//70 79 = A Grade
+//60 69 = B
+//50 59 = C
+//40 49 = D
+
+// if(validity >= 101){
+//     console.log("A Grade");
+// }else if (validity >=100){
+//     console.log("this not out of percentage")
+// }
+
+// var isEnroll = true;
+// var passed = false;
+// var age = 18; 
+
+// if ()
