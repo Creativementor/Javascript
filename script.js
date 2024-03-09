@@ -371,15 +371,15 @@
 // console.log(firstName)
 // console.log(lastName)
 
-const tableNumber = +prompt('Table you want')
+// const tableNumber = +prompt('Table you want')
 
-document.write(`<h1>Table You Want</h1>`)
+// document.write(`<h1>Table You Want</h1>`)
 
 
-for (let i = 1; i < 11; i++){
-    console.log("ye codde chal raha hy ");
-    document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
-}
+// for (let i = 1; i < 11; i++){
+//     console.log("ye codde chal raha hy ");
+//     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
+// }
 // document.write(`<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>`)
 // document.write(`<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>`)
 // document.write(`<li> ${tableNumber} x 4 = ${tableNumber * 4} </li>`)
@@ -510,4 +510,34 @@ for (let i = 1; i < 11; i++){
 // var passed = false;
 // var age = 18; 
 
-// if ()
+// var number = +prompt("enter the number")
+
+// if(number % 2 === 0 && number > 0) {
+//     alert("even number");
+// } else if (number % 2 !== 0 && number > 0) {
+//     console.log("odd number");
+// } else if (number === 0){
+//     console.log("invalid");
+// }
+// else{
+//     console.log("NaN");
+// }
+
+
+var percentage = +prompt("enter the percentage")
+
+if (percentage >= 40 && percentage <= 49) {
+    console.log("D Grade");
+} else if (percentage >= 50 && percentage <= 59) {
+    console.log("C Grade");
+} else if (percentage >= 60 && percentage <= 69) {
+    console.log("B Grade");
+} else if (percentage >= 70 && percentage <= 79) {
+    console.log("A Grade");
+} else if (percentage <= 100) {
+    console.log("A+");
+} else if (percentage <= 40) {
+    console.log("Not a percentage");
+} else if (percentage > 100) {
+    console.log("This not a percentage");
+}
