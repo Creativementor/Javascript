@@ -524,22 +524,22 @@
 // }
 
 
-var percentage = +prompt("enter the percentage")
-if (percentage >= 100) {
-    console.log("this not a percentage");
-} else if (percentage <= 100 && percentage >= 80) {
-    console.log("A+");
-} else if (percentage >= 70 && percentage < 80) {
-    console.log("A Grade");
-} else if (percentage >= 60 && percentage < 70) {
-    console.log("B Grade");
-} else if (percentage >= 50 && percentage < 60) {
-    console.log("C Grade");
-} else if (percentage >= 40 && percentage < 50) {
-    console.log("D Grade");
-} else if (percentage <= 40) {
-    console.log("your are fail");
-}
+// var percentage = +prompt("enter the percentage")
+// if (percentage >= 100) {
+//     console.log("this not a percentage");
+// } else if (percentage <= 100 && percentage >= 80) {
+//     console.log("A+");
+// } else if (percentage >= 70 && percentage < 80) {
+//     console.log("A Grade");
+// } else if (percentage >= 60 && percentage < 70) {
+//     console.log("B Grade");
+// } else if (percentage >= 50 && percentage < 60) {
+//     console.log("C Grade");
+// } else if (percentage >= 40 && percentage < 50) {
+//     console.log("D Grade");
+// } else if (percentage <= 40) {
+//     console.log("your are fail");
+// }
 
 
 // var num = prompt("Add number")
@@ -552,3 +552,76 @@ if (percentage >= 100) {
 // } else {
 //     console.log(num + " number isn't divided by " + num1)
 // }
+
+// var num = +prompt("Enter the number")
+
+
+if (num == 1 && num <= 10 || num == 10) {
+    document.write("1st Ashra")
+} else if (num <= 20 && num == 20) {
+    document.write("2nd Ashra")
+} else if (num <= 30 && num == 30) {
+    document.write("3rd Ashra")
+} else {
+    document.write("Wrong Indormation")
+}
+
+// index  variable ke naam ke baad [] brackets ainge
+// ,squre brackets me index ka number likh denge
+//lenght
+//show single value
+//update single value
+
+// var cities = ["Karachi" , "Lahore" , "Faislabad" , "Islamabad"]
+
+// console.log(cities);
+
+// console.log(cities[0]);
+
+// document.write(cities[0] + "is the largest city of Pakistan")
+// document.write(cities[0] + "is the largest city of Punjab")
+// document.write(cities[0] + "is the industrial hub of Pakistan")
+// document.write(cities[0] + "is the ciptal of Pakistan")
+
+
+// cities[0] = "Karachi- The City of lights"
+
+//push , add 1 or more element in the last of an array
+//pop , remove one element from last of an array
+//shift ,  remove one element from start of an array
+//unshift , add 1 more element from start af an array
+
+// using push
+
+// cities.push("Peshawar" , "Sawat" , "Gujranwala" , "Kashmir")
+
+// console.log("cities after push -->" , cities);
+
+//using pop
+
+// cities.pop();
+
+// console.log("cities after pop -->" , cities);
+
+// using unshift
+
+// cities.unshift("Larkana" , "Hyedrabad" , "Behria Town" , "Sadqabad" , "Orangi Town")
+
+// console.log("cities after unshift -->" , cities);
+
+
+// let student = ["kashif" , "amjad" , "hamza"]
+
+// student.splice(0 ,1 , "asad")
+
+// console.log(student);
+
+var length= cities.length
+
+console.log(length);
+
+// cities.length = 1;
+
+console.log(cities);
+
+console.log(cities[0]);
