@@ -669,18 +669,51 @@
 // console.log(userRollNumberInd);
 
 
-var cities = ["Karachi" , "Lahore" , "Islamabad" , "Hyderabad"]
+// var cities = ["Karachi" , "Lahore" , "Islamabad" , "Hyderabad"]
 
-var yourCity = prompt("Your city")
+// var yourCity = prompt("Your city")
 
-var indexOfCity = cities.indexOf(yourCity)
-if(indexOfCity === -1) {
-    cities.push(yourCity);
-}else {
-    alert("Already Added");
+// var indexOfCity = cities.indexOf(yourCity)
+// if(indexOfCity === -1) {
+//     cities.push(yourCity);
+// }else {
+//     alert("Already Added");
+// }
+
+
+
+// console.log(cities);
+// console.log(yourCity, indexOfCity);
+
+
+// We are starting a new chapter for loop
+
+//1.Variable creating
+// 2.Condition
+// 3.Incriment or Decrement
+// simple Loop 
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(" Hello " + i);
+// }
+
+// this the double increment
+
+// for (var i = 1; i <= 10 ; i++) {
+//     console.log(i * i);
+// }
+
+//square of 1 is 1
+//square if 2 is 4
+//square of 3 is 9
+
+// for (var i = 1 ; i = 10 ; i++){
+//     console.log("square of" + i + "is" + (i * i));
+// }
+
+
+for (var i = 1 ; i <= 10 ; i--){
+    console.log("sing " + i + " bottles of beer " + i + " botles");
+    console.log("sing take " + (i-1) + " bottles of beer");
+
 }
-
-
-
-console.log(cities);
-console.log(yourCity, indexOfCity);
