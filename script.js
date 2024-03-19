@@ -556,15 +556,15 @@
 // var num = +prompt("Enter the number")
 
 
-if (num == 1 && num <= 10 || num == 10) {
-    document.write("1st Ashra")
-} else if (num <= 20 && num == 20) {
-    document.write("2nd Ashra")
-} else if (num <= 30 && num == 30) {
-    document.write("3rd Ashra")
-} else {
-    document.write("Wrong Indormation")
-}
+// if (num == 1 && num <= 10 || num == 10) {
+//     document.write("1st Ashra")
+// } else if (num <= 20 && num == 20) {
+//     document.write("2nd Ashra")
+// } else if (num <= 30 && num == 30) {
+//     document.write("3rd Ashra")
+// } else {
+//     document.write("Wrong Indormation")
+// }
 
 // index  variable ke naam ke baad [] brackets ainge
 // ,squre brackets me index ka number likh denge
@@ -579,9 +579,9 @@ if (num == 1 && num <= 10 || num == 10) {
 // console.log(cities[0]);
 
 // document.write(cities[0] + "is the largest city of Pakistan")
-// document.write(cities[0] + "is the largest city of Punjab")
-// document.write(cities[0] + "is the industrial hub of Pakistan")
-// document.write(cities[0] + "is the ciptal of Pakistan")
+// document.write(cities[1] + "is the largest city of Punjab")
+// document.write(cities[2] + "is the industrial hub of Pakistan")
+// document.write(cities[3] + "is the ciptal of Pakistan")
 
 
 // cities[0] = "Karachi- The City of lights"
@@ -616,12 +616,71 @@ if (num == 1 && num <= 10 || num == 10) {
 
 // console.log(student);
 
-var length= cities.length
+// var length= cities.length
 
-console.log(length);
+// console.log(length);
 
 // cities.length = 1;
 
-console.log(cities);
+// console.log(cities);
 
-console.log(cities[0]);
+// console.log(cities[0]);
+
+// var fruits = ["Apple" ,"Banana" , "Grapes" , "Strawberry" , "Orange"]
+
+// console.log(fruits);
+
+
+// 6.slice
+// array se elment ko copy krne k lye 
+// slice orginal array me koi change nh krta 
+// slice copy krke new array return krdeta hai 
+// slice ke 2 parameter hain
+// 1.kahin se copy krna start krta hai
+// 2.jahan tk copy krna hai us se aik Number zyda dete hain 
+
+
+
+// copy all element after index number
+
+
+
+
+
+
+// var qualification = ["Matri" , "Enter" , "Masters" , "Phd"]
+
+// qualification.splice(2, 0, "Bachelors")
+// console.log(qualification);
+
+// var student = ["Hamza" , "Jawaid" , "Umar"]
+// var score = ["230" , "320" , "480"]
+
+
+//Array.indexOf
+//7.indexOf
+
+// var student = [2145 , 2130 , 2133 , 2140 , 2149 , 2135 , 2136]
+
+// var userRollNumber = +prompt("Enter your roll number")
+
+// var userRollNumberInd = student.indexOf(userRollNumber)
+
+// console.log(userRollNumberInd);
+
+
+var cities = ["Karachi" , "Lahore" , "Islamabad" , "Hyderabad"]
+
+var yourCity = prompt("Your city")
+
+var indexOfCity = cities.indexOf(yourCity)
+if(indexOfCity === -1) {
+    cities.push(yourCity);
+}else {
+    alert("Already Added");
+}
+
+
+
+console.log(cities);
+console.log(yourCity, indexOfCity);
