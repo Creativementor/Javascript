@@ -707,13 +707,15 @@
 //square if 2 is 4
 //square of 3 is 9
 
-// for (var i = 1 ; i = 10 ; i++){
-//     console.log("square of" + i + "is" + (i * i));
-// }
+// square formula
 
-
-for (var i = 1 ; i <= 10 ; i--){
-    console.log("sing " + i + " bottles of beer " + i + " botles");
-    console.log("sing take " + (i-1) + " bottles of beer");
-
+for (var i = 1 ; i = 10 ; i++){
+    console.log("square of" + i + "is" + (i * i));
 }
+
+
+// for (var i = 1 ; i <= 10 ; i--){
+//     console.log("sing " + i + " bottles of beer " + i + " botles");
+//     console.log("sing take " + (i-1) + " bottles of beer");
+
+// }
