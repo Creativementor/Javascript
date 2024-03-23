@@ -715,7 +715,55 @@
 
 
 // for (var i = 1 ; i <= 10 ; i--){
+// block scope
 //     console.log("sing " + i + " bottles of beer " + i + " botles");
 //     console.log("sing take " + (i-1) + " bottles of beer");
 
 // }
+
+// var nums = [20, 3, 12, 34, 21, 25, 6, 2]
+
+// var smallestNum = nums[0]
+
+// for (var i = 0; i < nums.length; i++) {
+
+//     if (nums[i] < smallestNum ) {
+
+//         smallestNum = nums[i]
+//     }
+// }
+
+// console.log(smallestNum);
+
+
+// var bond = [2155, 1513, 1522, 2135, 1413, 1621, 2125, 1113, 1222];
+
+// var bondNumber = prompt("Enter your bond number")
+
+// var won = false  //flag koi esa variable banana jisko true/false de saken
+
+
+// for (var i = 0; i < bond.length; i++) {
+//      if(bond[i] == bondNumber){
+//         won = true
+//      }
+// }
+
+// if(won){
+//     document.write('you won')
+// } else {
+//     document.write('you loss')
+// }
+
+
+// var nums = [25, 2, 20, 35, 12, 10, 1]
+
+// var largestNum = nums[0]
+
+// for (var i = 0; i < nums.length; i++) {
+//     if (nums[i] > largestNum)
+//         largestNum = nums[i]
+// }
+
+// console.log(largestNum);
+
