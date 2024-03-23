@@ -709,9 +709,9 @@
 
 // square formula
 
-for (var i = 1 ; i = 10 ; i++){
-    console.log("square of" + i + "is" + (i * i));
-}
+// for (var i = 1 ; i = 10 ; i++){
+//     console.log("square of" + i + "is" + (i * i));
+// }
 
 
 // for (var i = 1 ; i <= 10 ; i--){
