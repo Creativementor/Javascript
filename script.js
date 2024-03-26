@@ -767,3 +767,37 @@
 
 // console.log(largestNum);
 
+// for (var i = 0; i < 10; i++) {
+//     for (var j = 0; j < 10; j++) {
+//         console.log("i =>" , i , "j =>" , j);
+//     }
+// }
+
+
+// var userPrizeBond = [234, 235, 236, 237, 238]
+
+// var prizeBondWinner = [
+//     112, 152, 190, 201, 220, 236, 238, 250, 285, 310, 315, 320, 341, 360, 355, 380, 400
+// ]
+
+// var userWon = [];
+
+// for (var i = 0; i < userPrizeBond.length; i++) {
+//     for (var j = 0; j < prizeBondWinner.length; j++)
+//         //{
+//             // console.log("j =>" , prizeBondWinner[j]);
+//             // console.log("i =>" , userPrizeBond[i] === prizeBondWinner[j]);
+//         //}
+
+//         if (userPrizeBond[j] === prizeBondWinner[i]) {
+//             userWon.push(userPrizeBond[i])
+//         }
+
+// }
+
+// console.log("Jitne wale logon ki list" + userWon);
+
+
+// let x = 5; 
+
+// console.log(x += '5');
